@@ -9,7 +9,7 @@
 <br>
 To make VirtualBox vms function properly, you must disable Hyper-V and enable windows VMs.
 
-To do that run disable_hyperv.ps1 script in elevated powershell. Also disable memory integrity option in windows security -> core isolation.
+To do that run [disable_hyperv.ps1](./disable_hyperv.ps1) script in elevated powershell. Also disable memory integrity option in windows security -> core isolation.
 </details>
 
 1. Install [Vagrant](https://www.vagrantup.com/downloads) and install vbguest plugin
